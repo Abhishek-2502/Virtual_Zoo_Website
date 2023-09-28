@@ -1,0 +1,186 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* General styles for the entire website */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffcfc;
+  margin:0;
+  min-height:100%;
+  position: relative;
+  padding-bottom:6.74rem;
+
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  margin-top: 10px; 
+  text-align: center;
+  color: #fff;
+}
+
+nav a {
+  margin-right: 15px;
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 200px;
+  min-height: 100%;
+  flex-direction: column;
+  display: flex;
+  margin:0;
+  min-height: calc(100vh - 211px - 58px);
+  text-decoration: none !important;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+h3{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+h4{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+footer {
+
+  background-color: rgba(0, 0, 0, 0.607);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+  bottom: 0;
+  height: 2rem;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  
+
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Style the animal images and names */
+.animal-list {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+
+.animal {
+  text-align: center;
+  margin: 20px;
+  
+}
+
+.animal img {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.2s;
+}
+
+.animal p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.animal img:hover {
+  transform: scale(1.1);
+}
+
+/* Style the additional images container */
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Style the individual images */
+.images-container img {
+  width: 300px;
+  height: 200px;
+  margin: 10px; /* Adjust the margin between images */
+  transition: transform 0.2s;
+}
+
+.video-container{
+  width: 700px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 50%;
+}
+/* Add hover effect to images */
+.images-container img:hover {
+  transform: scale(1.1);
+}
+
+/* Style the description text */
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+
+/* Style the 3D model container */
+#lion3DModel,
+#elephant3DModel,
+#giraffe3DModel,
+#kangroo3DModel,
+#rhino3DModel {
+
+  margin:0;
+  padding:0;
+    }
+    model-viewer{
+    width:100%;
+    height:800px;
+  }
+
+.contact-container{
+  text-align: center;
+}
+
+.QR{
+  margin-left: 25%;
+}
+ 
+  
