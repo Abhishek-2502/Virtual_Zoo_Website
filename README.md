@@ -11,7 +11,8 @@ Welcome to the Virtual Zoo Website project! This repository contains code for a 
 - [Usage](#usage)
 - [Hologram Instructions](#hologram-instructions)
 - [Contributing](#contributing)
-
+- [Author](#author)
+  
 ## Features
 
 - **Informative Content**: Learn about both extinct and existing animals through interactive 3D models and detailed descriptions.
@@ -59,3 +60,6 @@ Welcome to the Virtual Zoo Website project! This repository contains code for a 
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
+## Author
+
+Abhishek Rajput.
